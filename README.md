@@ -1,8 +1,7 @@
 ##Laborki - read me, 
 ====================
-#Strona z projektami:
-http://aszykula.github.io/Techniki-Internetowe-2014/
-[KLIK][0]
+###Strona z projektami:
+[aszykulagithub.io][0]
 
 Tabelki HTML 5:
 
