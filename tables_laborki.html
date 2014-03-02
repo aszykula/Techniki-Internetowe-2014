@@ -7,7 +7,7 @@
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <style>
     body { background: #c2c2c2; }
-    #map { height: 480px; }
+    #map { height: 480px; weight: 480px; }
   </style>
 </head>
 <body>
@@ -28,16 +28,16 @@
 		L.marker([54.3602, 18.5232]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />Mieszkam Tu.").openPopup();
 
-		L.circle([54.508, 18.11], 100, {
+		L.circle([54.508, 18.51], 100, {
 			color: 'red',
 			fillColor: '#f03',
 			fillOpacity: 0.5
 		}).addTo(map).bindPopup("I am a circle.");
 
 		L.polygon([
-			[54.509, 18.08],
-			[54.503, 18.06],
-			[54.51, 18.047]
+			[54.509, 18.58],
+			[54.503, 18.56],
+			[54.51, 18.547]
 		]).addTo(map).bindPopup("I am a polygon.");
 
 
